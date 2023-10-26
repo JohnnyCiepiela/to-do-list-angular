@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1698322978407,
+  "index": "C:/Program Files/Git/to-do-list-angular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "C:/Program Files/Git/to-do-list-angular/favicon.ico",
+        "C:/Program Files/Git/to-do-list-angular/index.html",
+        "C:/Program Files/Git/to-do-list-angular/main.722b8e027bb5d338.js",
+        "C:/Program Files/Git/to-do-list-angular/manifest.webmanifest",
+        "C:/Program Files/Git/to-do-list-angular/polyfills.1b00c97c5d313918.js",
+        "C:/Program Files/Git/to-do-list-angular/runtime.5cd47be50c68a4d2.js",
+        "C:/Program Files/Git/to-do-list-angular/styles.ae4db57633b3f67f.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-128x128.png",
+        "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-144x144.png",
+        "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-152x152.png",
+        "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-192x192.png",
+        "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-384x384.png",
+        "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-512x512.png",
+        "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-72x72.png",
+        "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "C:/Program Files/Git/to-do-list-angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "C:/Program Files/Git/to-do-list-angular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "C:/Program Files/Git/to-do-list-angular/index.html": "1fa86b14ad93f2d9540a88df577ba84f2126c226",
+    "C:/Program Files/Git/to-do-list-angular/main.722b8e027bb5d338.js": "e3a015242158c8ab56c7ded1aff77cfd55fd0256",
+    "C:/Program Files/Git/to-do-list-angular/manifest.webmanifest": "d058dd97f41dd9bd89e71c5461f8e2b425d1bea2",
+    "C:/Program Files/Git/to-do-list-angular/polyfills.1b00c97c5d313918.js": "ad22c175c90b0d80360dfdde475bc18fccb6ba7a",
+    "C:/Program Files/Git/to-do-list-angular/runtime.5cd47be50c68a4d2.js": "1cf55f58fa4a08343ad387cb9560eaef6ca3a7a0",
+    "C:/Program Files/Git/to-do-list-angular/styles.ae4db57633b3f67f.css": "929eee38cfadc5b120d748d93e8c8c96fb3b65e9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
