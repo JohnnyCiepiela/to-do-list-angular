@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
-import {Todo} from '../../models/Todo';
+import { Todo } from '../../models/Todo';
 
 @Component({
   selector: 'app-todos',
@@ -8,25 +7,37 @@ import {Todo} from '../../models/Todo';
   styleUrls: ['./todos.component.scss']
 })
 export class TodosComponent implements OnInit {
+  todos: Todo[];
+  private _inputTodo: string = '';
 
-  todos:Todo[];
-  @Input() inputTodo:string = "";
+  @Input()
+  set inputTodo(value: string) {
+    this._inputTodo = value;
+    this.checkInput();
+  }
 
-  constructor() { }
+  get inputTodo(): string {
+    return this._inputTodo;
+  }
+
+  isDisabled = true;
+
+  constructor() {
+  }
 
   ngOnInit(): void {
-    this.todos = []
+    this.todos = [];
   }
 
-  toggleDone(id:number): void {
-    this.todos.map((v,i) => {
-      if (i == id)  v.completed = !v.completed
+  toggleDone(id: number): void {
+    this.todos.map((v, i) => {
+      if (i == id) v.completed = !v.completed;
       return v;
-    })
+    });
   }
 
-  deleteTodo(id:number) {
-    this.todos = this.todos.filter((v,i) => i != id);
+  deleteTodo(id: number) {
+    this.todos = this.todos.filter((v, i) => i != id);
   }
 
   addTodo() {
@@ -36,8 +47,14 @@ export class TodosComponent implements OnInit {
     });
 
     this.inputTodo = '';
+    this.isDisabled = true;
   }
 
-
-
+  checkInput() {
+    if (this._inputTodo.trim() === '') {
+      this.isDisabled = true;
+    } else {
+      this.isDisabled = false;
+    }
+  }
 }
